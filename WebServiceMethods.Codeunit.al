@@ -3,7 +3,7 @@ codeunit 50100 "WebService Methods"
     //These codeunits implements the methods used to integrate Business Central with the third party software
 
 
-    local procedure SalesInvoices()
+    procedure SalesInvoices()
     var
         ExampleIntegrationManagement: Codeunit "Example Integration Management";
         JsonRequest: Text;
