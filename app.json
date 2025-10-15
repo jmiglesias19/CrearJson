@@ -1,7 +1,7 @@
 {
   "id": "1cbb4496-8403-4d3f-8107-ad1c06f717ad",
   "name": "CrearJson",
-  "publisher": "Default Publisher",
+  "publisher": "jmiglesias",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "28.0.0.0",
+  "application": "1.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "17.0",
+  "runtime": "15.2",
   "features": [
     "NoImplicitWith"
   ]
