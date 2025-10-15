@@ -7,12 +7,14 @@ codeunit 50100 "WebService Methods"
     var
         ExampleIntegrationManagement: Codeunit "Example Integration Management";
         JsonRequest: Text;
-    //JsonResponse: Text;
+    // MyTelemetryCategory: Label 'MyWebServiceIntegrationLbl';
+    // JsonResponse: Text;
 
     begin
         //build as JSON
         JsonRequest := ExampleIntegrationManagement.GetSalesInvoicesAsJson();
         Message(JsonRequest);
+
         //call WebService
         //JsonResponse := CallTheWebService('URL', JsonRequest);
         //process the answer
@@ -22,7 +24,7 @@ codeunit 50100 "WebService Methods"
 
     end;
 
-    local procedure SalesCrMemos()
+    /* local procedure SalesCrMemos()
     begin
         //build as JSON
         //call WebService
@@ -44,5 +46,5 @@ codeunit 50100 "WebService Methods"
         //call WebService
         //process the answer
         //update the log (not always)
-    end;
+    end; */
 }
