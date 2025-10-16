@@ -22,7 +22,7 @@ codeunit 50101 "Example Integration Management"
     local procedure GetExecutionDate(): Date //cuando se pone los ":" y un tipo de dato es porque el procedimiento obligatoriamente va a devolver un valor de dicho tipo
     begin
         exit(Today())
-        // exit(DMY2Date(28, 1, 2027));
+        // exit(DMY2Date(29, 1, 2027));
     end;
 
     local procedure WriteSalesInvoicesToBuffer(ExecutionDate: Date; var TempSalesInvoiceBuffer: Record "Sales Invoice Buffer" temporary)
