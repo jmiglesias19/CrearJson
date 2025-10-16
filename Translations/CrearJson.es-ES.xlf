@@ -33,6 +33,36 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Field Line Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 681689507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test JSON Generator</source>
+          <target>Generador de JSON de Prueba</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 681689507 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Process</source>
+          <target>Ejecutar Proceso</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 681689507 - Control 3123527090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click the action in the menu to generate the sales invoice JSON.</source>
+          <target>Haga clic en la acción del menú para generar el JSON de la factura de venta.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Control Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 681689507 - Action 359551069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use this to generate a JSON.</source>
+          <target>Use esto para generar un JSON.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Action Generate and Show JSON - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 681689507 - Action 359551069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate and Show JSON</source>
+          <target>Generar y Mostrar JSON</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Action Generate and Show JSON - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 2218793258 - EnumValue 907109761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Header</source>
           <target>Cabecera</target>

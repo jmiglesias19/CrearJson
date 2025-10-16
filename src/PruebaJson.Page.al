@@ -1,3 +1,5 @@
+//pagina que he creado para probar a ver el json con los detalles de una factura, pero no he conseguido hacerlo asi que esto no vale para nada pero bueno
+
 page 50100 "Prueba Json"
 {
     PageType = Card;
@@ -7,14 +9,13 @@ page 50100 "Prueba Json"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {
                 Caption = 'Run Process';
                 label(Info)
                 {
-                    ApplicationArea = All;
                     Caption = 'Click the action in the menu to generate the sales invoice JSON.';
                 }
             }
@@ -23,7 +24,7 @@ page 50100 "Prueba Json"
 
     actions
     {
-        area(processing)
+        area(Processing)
         {
             action("Generate and Show JSON")
             {
@@ -32,6 +33,8 @@ page 50100 "Prueba Json"
                 Image = Web;
                 Promoted = true;
                 PromotedCategory = Process;
+                PromotedOnly = true;
+                ToolTip = 'Use this to generate a JSON.';
 
                 trigger OnAction()
                 var

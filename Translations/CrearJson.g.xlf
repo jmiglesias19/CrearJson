@@ -43,6 +43,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Control Info - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 681689507 - Action 359551069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use this to generate a JSON.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Prueba Json - Action Generate and Show JSON - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 681689507 - Action 359551069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generate and Show JSON</source>
           <note from="Developer" annotates="general" priority="2"></note>

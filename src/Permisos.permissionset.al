@@ -8,5 +8,6 @@ permissionset 50100 Permisos
                   codeunit "Example Integration Management" = X,
                   codeunit "Manual Test" = X,
                   table "Sales Invoice Buffer" = X,
-                  tabledata "Sales Invoice Buffer" = RIMD;
+                  tabledata "Sales Invoice Buffer" = RIMD,
+                  page "Prueba Json" = x;
 }
