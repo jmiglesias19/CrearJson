@@ -9,5 +9,6 @@ permissionset 50100 Permisos
                   codeunit "Manual Test" = X,
                   table "Sales Invoice Buffer" = X,
                   tabledata "Sales Invoice Buffer" = RIMD,
-                  page "Prueba Json" = x;
+                  page "Prueba Json" = x,
+                  codeunit RemoveNonVisibleChars = X;
 }
