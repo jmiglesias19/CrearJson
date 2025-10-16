@@ -9,7 +9,7 @@ codeunit 50103 "RemoveNonVisibleChars"
     begin
         //Asciis to remove:
         // 9=Tab
-        //10=LineFeed
+        //10=LineFeed 
         //13=CarriageReturn
         //all other ascii values between 0 and 31
         //32=Space

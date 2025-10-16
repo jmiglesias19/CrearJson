@@ -31,15 +31,13 @@ codeunit 50101 "Example Integration Management"
     //esta tia habia creado esta variable, pero ya tenia la variable TempSalesInvoiceBuffer que hacia referencia a la misma tabla, por lo tanto he decidido usarla
     begin
         SalesInvoiceHeader.SetRange("Posting Date", ExecutionDate);
-        if SalesInvoiceHeader.IsEmpty() then
-            exit;
-        SalesInvoiceHeader.FindSet();
-        repeat
-            //Datos de cabecera
-            WriteHeaderDataToBuffer(SalesInvoiceHeader, TempSalesInvoiceBuffer);
-        //desglose de IVA
-        //Datos de linea
-        until SalesInvoiceHeader.Next() = 0;
+        if not SalesInvoiceHeader.IsEmpty() and SalesInvoiceHeader.FindSet() then
+            repeat
+                //Datos de cabecera
+                WriteHeaderDataToBuffer(SalesInvoiceHeader, TempSalesInvoiceBuffer);
+            //desglose de IVA
+            //Datos de linea
+            until SalesInvoiceHeader.Next() = 0;
     end;
 
     local procedure WriteHeaderDataToBuffer(SalesInvoiceHeader: Record "Sales Invoice Header"; var TempSalesInvoiceBuffer: Record "Sales Invoice Buffer" temporary)
