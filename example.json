@@ -7,8 +7,8 @@
       "nif": "73349578A",
       "address": "C/ Alborada 10",
       "cp": "28004",
-      "net_amount": 100,
-      "gross_amount": 121,
+      "amount": 100,
+      "amountInclVat": 121,
       "tax": [
         {
           "tax_percentage": 10,

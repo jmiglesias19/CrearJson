@@ -9,6 +9,42 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Permisos - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2946967219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice Buffer</source>
+          <target>Búfer Factura Venta</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2946967219 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nº movimiento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2946967219 - Field 158172202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Type</source>
+          <target>Tipo de línea</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Field Line Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2218793258 - EnumValue 907109761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target>Cabecera</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Buffer Line Type - EnumValue Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2218793258 - EnumValue 3471137671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <target>Líneas</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Buffer Line Type - EnumValue Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2218793258 - EnumValue 213023903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax</source>
+          <target>Impuesto</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Buffer Line Type - EnumValue Tax - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
