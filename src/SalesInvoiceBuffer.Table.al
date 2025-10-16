@@ -91,4 +91,18 @@ table 50100 "Sales Invoice Buffer"
         {
         }
     }
+
+    procedure WriteAllRecToJson(): Text
+    begin
+        Clear(Json);
+        if IsEmpty() then begin
+            Json.WriteStartObject('');
+            Json.WriteEndObject();
+            Json.GetJSonAsText();
+            exit;
+        end;
+    end;
+
+    var
+        Json: Codeunit "Json Text Reader/Writer";
 }
