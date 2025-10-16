@@ -15,6 +15,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2946967219 - NamedType 3897983508" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target>Facturas</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - NamedType InvoicesLbl</note>
+        </trans-unit>
         <trans-unit id="Table 2946967219 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
           <target>Nº movimiento</target>

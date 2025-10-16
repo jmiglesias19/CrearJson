@@ -82,6 +82,13 @@ table 50100 "Sales Invoice Buffer"
         }
     }
 
+    keys
+    {
+        key(Key1; "Posting Date")
+        {
+        }
+    }
+
     fieldgroups
     {
         fieldgroup(DropDown; "Entry No.", "Document No.", Name, Description)
@@ -98,11 +105,18 @@ table 50100 "Sales Invoice Buffer"
         if IsEmpty() then begin
             Json.WriteStartObject('');
             Json.WriteEndObject();
-            Json.GetJSonAsText();
-            exit;
+            exit(Json.GetJSonAsText());
+
         end;
+        Json.WriteStartObject('');
+        Json.WriteProperty(InvoicesLbl);
+        Json.WriteStartArray('');
+        //facturas
+        Json.WriteEndArray();
+        Json.WriteEndObject();
     end;
 
     var
         Json: Codeunit "Json Text Reader/Writer";
+        InvoicesLbl: Label 'Invoices';
 }
