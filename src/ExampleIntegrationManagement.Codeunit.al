@@ -46,6 +46,7 @@ codeunit 50101 "Example Integration Management"
         TempSalesInvoiceBuffer."Entry No." += 1;
         TempSalesInvoiceBuffer."Line Type" := TempSalesInvoiceBuffer."Line Type"::Header;
         TempSalesInvoiceBuffer."Document No." := SalesInvoiceHeader."No.";
+        TempSalesInvoiceBuffer."Posting Date" := SalesInvoiceHeader."Posting Date";
         TempSalesInvoiceBuffer.Insert(false);
     end;
 }

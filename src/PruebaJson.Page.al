@@ -47,6 +47,19 @@ page 50100 "Prueba Json"
                     // Muestra el resultado en una ventana de mensaje
                     Message(JsonResult);
                 end;
+
+                //prueba de metodo RemoveNonVisibleCharsAndSpaces
+                // var
+                //     StringUtils: Codeunit "RemoveNonVisibleChars";
+                //     entrada: Text;
+                //     salida: Text;
+                // begin
+                //     entrada := ' Hola   Mundo' + '\n' + '     Esto es una    prueba del  metodo para eliminar espacios.';
+                //     salida := StringUtils.RemoveNonVisibleCharsAndSpaces(entrada);
+                //     Message('Texto original: ' + entrada + '\n\n' + 'Texto limpio: ' + salida);
+                // end;
+
+
             }
         }
     }

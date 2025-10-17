@@ -99,18 +99,20 @@ table 50100 "Sales Invoice Buffer"
         }
     }
 
+    //  todo este metodo no esta bien del todo, revisar
     procedure WriteAllRecToJson(): Text
     begin
         Clear(Json);
+        Json.WriteStartObject('');
         if IsEmpty() then begin
             Json.WriteStartObject('');
-            Json.WriteEndObject();
-            exit(Json.GetJSonAsText());
-
+            Json.WriteProperty(InvoicesLbl);
+            Json.WriteStartArray('');
         end;
-        Json.WriteStartObject('');
-        Json.WriteProperty(InvoicesLbl);
-        Json.WriteStartArray('');
+
+        Json.WriteEndObject();
+        exit(Json.GetJSonAsText());
+
         //facturas
         FindSet();
         repeat
@@ -125,6 +127,7 @@ table 50100 "Sales Invoice Buffer"
     begin
         Json.WriteStartObject('');
         WriteStringProperty(true, FieldCaption("Document No."), "Document No.");
+        WriteStringProperty(true, FieldCaption("Posting Date"), "Posting Date");
         Json.WriteEndObject();
     end;
 

@@ -28,6 +28,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Invoice Buffer - Field Line Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 3897983508" size-unit="char" translate="yes" xml:space="preserve">
+          <source> "Invoices" : [ </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType InvoicesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 2207480331" size-unit="char" translate="yes" xml:space="preserve">
+          <source>   "serial_number" : "00001" , </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType SerialNumberLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 1542941690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>   "date" : "%1" </source>
+          <note from="Developer" annotates="general" priority="2">La etiqueta contiene el marcador de posición %1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType DateLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 3874872294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>{</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType JsonStartLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 1135023319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>}</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType JsonEndLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 1075678616" size-unit="char" translate="yes" xml:space="preserve">
+          <source>]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType ArrayEndLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 190715177" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  { </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType ObjectStartLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 592160240 - Method 1739889181 - NamedType 4029161780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  } </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RemoveNonVisibleChars - Method GetExpectedJsonValue - NamedType ObjectEndLbl</note>
+        </trans-unit>
         <trans-unit id="Page 681689507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Test JSON Generator</source>
           <note from="Developer" annotates="general" priority="2"></note>
